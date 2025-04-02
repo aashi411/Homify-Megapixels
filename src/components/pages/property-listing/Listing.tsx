@@ -1,11 +1,11 @@
 import "./listing.css";
 
 import myImage1 from "/room2.png";
-import myImage2 from "/house2.png";
+import myImage2 from "/house3.jpg";
 import myImage3 from "/room3.png";
-import myImage4 from "/room4.jpg";
-import myImage5 from "/room1.png";
-import myImage6 from "/house1.png";
+import myImage4 from "/house6.jpg";
+import myImage5 from "/house5.jpg";
+import myImage6 from "/house4.jpg";
 
 const Listing = () => {
   return (
