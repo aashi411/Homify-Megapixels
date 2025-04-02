@@ -79,7 +79,8 @@ const Listing = () => {
           </div>
           <div className="card-content">
             <p className="location">Location</p>
-            <h2 className="property-name">Urban Retreat</h2>
+            <h2 className="property-name">Urban Retreat Hostel</h2>
+            
             <div className="icon-row">
               <div className="icon-item">
                 <a className="fas fa-tag"></a>
@@ -110,7 +111,7 @@ const Listing = () => {
           </div>
           <div className="card-content">
             <p className="location">Location</p>
-            <h2 className="property-name">Chill & Chat</h2>
+            <h2 className="property-name">Chill & Chill Hostel</h2>
             <div className="icon-row">
               <div className="icon-item">
                 <a className="fas fa-tag"></a>
