@@ -1,0 +1,172 @@
+/* Basic Reset and Global Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/* Header Styles */
+header {
+  /* background-color: grey; */
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-image img {
+  width: 1440px;
+  height: 772px;
+  object-fit: cover;
+  filter: blur(5px);
+}
+
+.ai-icon {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+/* Room Banner */
+
+.room-details {
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.room-banner {
+  background-color: #f8f9fa;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.room-banner h1 {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.room-images {
+  flex: 1;
+  overflow: hidden;
+}
+
+.room-images img {
+  width: 722px;
+  height: 547px;
+  object-fit: cover;
+}
+
+/* Container and global styles */
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  /* padding: 20px; */
+  margin: 0 auto;
+}
+
+/* Property card styles */
+.property-card {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.rating {
+  margin-bottom: 8px;
+}
+
+.star {
+  color: #000;
+  font-size: 20px;
+}
+
+.star.filled {
+  color: #000;
+}
+
+.star.empty {
+  color: #ccc;
+}
+
+.property-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 14px;
+  justify-content: start;
+}
+
+.location-icon {
+  margin-left: 5px;
+  color: #666;
+}
+
+.amenities {
+  font-size: 14px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+/* Button grid styles */
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.info-button {
+  background-color: #ffd699;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.action-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.action-button {
+  background-color: #ffd699;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 0;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.book-button {
+  text-transform: uppercase;
+}
