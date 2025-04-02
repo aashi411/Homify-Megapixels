@@ -55,7 +55,7 @@ const Listing = () => {
                 <span>PRICE</span>
               </div>
               <div className="icon-item">
-                <a href="http://localhost:5173/room-detail" className="fas fa-home"></a>
+                <a href="/room-detail" className="fas fa-home"></a>
                 <span>ROOMS</span>
               </div>
               <div className="icon-item">
@@ -86,7 +86,7 @@ const Listing = () => {
                 <span>PRICE</span>
               </div>
               <div className="icon-item">
-                <a href="http://localhost:5173/room-detail" className="fas fa-home"></a>
+                <a href="/room-detail" className="fas fa-home"></a>
                 <span>ROOMS</span>
               </div>
               <div className="icon-item">
@@ -117,7 +117,7 @@ const Listing = () => {
                 <span>PRICE</span>
               </div>
               <div className="icon-item">
-                <a href="http://localhost:5173/room-detail" className="fas fa-home"></a>
+                <a href="/room-detail" className="fas fa-home"></a>
                 <span>ROOMS</span>
               </div>
               <div className="icon-item">
@@ -148,7 +148,7 @@ const Listing = () => {
                 <span>PRICE</span>
               </div>
               <div className="icon-item">
-                <a href="http://localhost:5173/room-detail" className="fas fa-home"></a>
+                <a href="/room-detail" className="fas fa-home"></a>
                 <span>ROOMS</span>
               </div>
               <div className="icon-item">
@@ -179,7 +179,7 @@ const Listing = () => {
                 <span>PRICE</span>
               </div>
               <div className="icon-item">
-                <a href="http://localhost:5173/room-detail" className="fas fa-home"></a>
+                <a href="/room-detail" className="fas fa-home"></a>
                 <span>ROOMS</span>
               </div>
               <div className="icon-item">
@@ -210,7 +210,7 @@ const Listing = () => {
                 <span>PRICE</span>
               </div>
               <div className="icon-item">
-                <a href="http://localhost:5173/room-detail" className="fas fa-home"></a>
+                <a href="/room-detail" className="fas fa-home"></a>
                 <span>ROOMS</span>
               </div>
               <div className="icon-item">
@@ -241,7 +241,7 @@ const Listing = () => {
                 <span>PRICE</span>
               </div>
               <div className="icon-item">
-                <a href="http://localhost:5173/room-detail" className="fas fa-home"></a>
+                <a href="/room-detail" className="fas fa-home"></a>
                 <span>ROOMS</span>
               </div>
               <div className="icon-item">
@@ -272,7 +272,7 @@ const Listing = () => {
                 <span>PRICE</span>
               </div>
               <div className="icon-item">
-                <a href="http://localhost:5173/room-detail" className="fas fa-home"></a>
+                <a href="/room-detail" className="fas fa-home"></a>
                 <span>ROOMS</span>
               </div>
               <div className="icon-item">
@@ -303,7 +303,7 @@ const Listing = () => {
                 <span>PRICE</span>
               </div>
               <div className="icon-item">
-                <a href="http://localhost:5173/room-detail" className="fas fa-home"></a>
+                <a href="/room-detail" className="fas fa-home"></a>
                 <span >ROOMS</span>
               </div>
               <div className="icon-item">
