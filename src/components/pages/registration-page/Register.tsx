@@ -7,12 +7,12 @@ const Register = () => {
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       ></link>
       <div className="container">
-        <div className="form-container w-full flex justify-center items-start flex-col gap-10">
-          <div className="flex w-full items-center justify-center">
+        <div className="w-full flex justify-center items-start flex-col">
+          <div className="flex w-full items-center justify-center mb-8">
             <h2 className="flex text-center">Register</h2>
           </div>
-          <form className="w-[65%]">
-            <div className="form-group w-full">
+          <form className="w-full flex items-center justify-center flex-col gap-4">
+            <div className="w-[70%] form-group items-center justify-center">
               <input
                 type="text"
                 id="firstName"
@@ -20,7 +20,7 @@ const Register = () => {
                 required
               ></input>
             </div>
-            <div className="form-group">
+            <div className="w-[70%] form-group items-center justify-center">
               <input
                 type="text"
                 id="lastName"
@@ -28,7 +28,7 @@ const Register = () => {
                 required
               ></input>
             </div>
-            <div className="form-group">
+            <div className="w-[70%] form-group items-center justify-center">
               <input
                 type="email"
                 id="emailId"
@@ -36,14 +36,14 @@ const Register = () => {
                 required
               ></input>
             </div>
-            <div className="form-group">
+            <div className="w-[70%] form-group items-center justify-center">
               <input
                 type="text"
                 id="college"
                 placeholder="Enter your college name"
               ></input>
             </div>
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btn-primary w-[70%] items-center justify-center">
               Register
             </button>
           </form>
